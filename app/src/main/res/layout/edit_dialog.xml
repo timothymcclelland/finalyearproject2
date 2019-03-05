@@ -17,6 +17,22 @@
         android:layout_marginBottom="4dp"
         android:text="@string/dialog_text" />
 
+
+    <!--ImageView commented out as unable to get image storage and download functionality working
+       <!-used to display post image
+
+           <ImageView
+               android:id:="@+id/edit_delete_post_image"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:layout_margin="3dp"
+               android:adjustViewBounds="true"
+               android:scaleType="centerCrop"/>
+
+               -->
+
+    <!--Display post text-->
+
     <!--Edit Text containing current post chosen to edited.
     User can then edit this to update their post-->
     <EditText

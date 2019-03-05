@@ -10,6 +10,8 @@ public class post {
     public String date;
     public String time;
     public String category;
+    //code below commented out as unable to get image storage and download functionality working
+    //public String postImage;
 
     //default constructor
     public post(){
@@ -17,11 +19,15 @@ public class post {
     }
 
     //post constructor class
-    public post(String post, String date, String time, String category) {
+    public post(String post, String date, String time, String category/*String postImage*,
+    //code below commented out as unable to get image storage and download functionality working*/) {
         this.post = post;
         this.date = date;
         this.time = time;
         this.category = category;
+
+        //code below commented out as unable to get image storage and download functionality working
+        //this.postImage = postImage;
     }
 
     //getter method for post variable
@@ -63,4 +69,16 @@ public class post {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    /* methods below are commented out as unable to get image storage and download functionality working
+
+    //getter method for postImage variable
+    public String getPostImage() {
+        return postImage;
+    }
+
+    //setter method for postImage variable
+    public void setPostImage(String postImage) {
+        this.postImage = postImage;
+    }*/
 }

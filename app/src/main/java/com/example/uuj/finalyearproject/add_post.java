@@ -11,14 +11,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
-//firebase imports
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+//firebase imports
 
 public class add_post extends AppCompatActivity {
 

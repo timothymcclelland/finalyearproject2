@@ -12,6 +12,20 @@
         android:layout_height="wrap_content"
         android:text="@string/post_hint"/>
 
+    <!--Image Button commented out as unable to get image storage and download functionality working
+
+    <!-used to select image to add for post
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        android:id="@+id/add_image"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_add_image"/>
+
+    -->
+
     <!--referenced in add_post.java-->
     <Spinner
         android:layout_margin="15dp"
